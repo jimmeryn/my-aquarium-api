@@ -23,7 +23,7 @@ npm install
 Then create `.env` file with the following contents.
 
 ```env
-DATABASE_URL="postgresql://postgres:myaquarium@192.168.99.100:5432/aquarium-postgres?schema=public"
+DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE?schema=SCHEMA"
 ```
 
 ### Development
